@@ -1,0 +1,8 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+mlflow==3.18.0
+pyspark==3.5.7
+numpy==1.26.4
+scipy==1.17.1
+pydantic==2.11.3
+boto3
