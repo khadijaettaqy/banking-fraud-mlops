@@ -1,4 +1,4 @@
-﻿apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: fraud-api
@@ -26,7 +26,7 @@ spec:
             - name: MLFLOW_TRACKING_URI
               value: "http://host.minikube.internal:5000"
             - name: MODEL_URI
-              value: "models:/BankingFraudBestModel/51"
+              value: "models:/BankingFraudBestModel/114"
             - name: MLFLOW_S3_ENDPOINT_URL
               value: "http://host.minikube.internal:9000"
             - name: AWS_DEFAULT_REGION
